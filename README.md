@@ -11,7 +11,7 @@
 1. Configure the CoursesChecker.py file with your Twilio account, as well as your phone number
 
 1. Configure the courses.txt file
-  1. The format should be "COURSENAME COURSENUMBER COURSESECTION" I have provided examples in the provided courses.txt file
+  1. The format should be ``COURSENAME COURSENUMBER COURSESECTION`` I have provided examples in the provided courses.txt file
 
 1. Run the command ``python CourseChecker.py``
 
