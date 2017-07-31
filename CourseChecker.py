@@ -10,7 +10,6 @@ _SID = "<Twilio Secret>"
 _ATOKEN = "<Twilio Access Token>"
 _myPhoneNumber = "<Your Phone Number>"
 
-
 _TIME = 600.0
 ##
 
@@ -84,7 +83,6 @@ def theWholeFunction():
 			isDone = True
 
 
-	print("Finished!")
 	print("-----------------------------------")
 
 	avail = []
@@ -117,9 +115,6 @@ def theWholeFunction():
 		else:
 			print("Still Full :(")
 			print("-----------------------------------")
-
-
-
 	# Available Handler
 
 	if (len(avail) != 0):
@@ -144,11 +139,15 @@ def theWholeFunction():
 		print("Number of Times Ran: " + str(timesRan))
 		print("Last Ran At: " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
+	print("\n")
+	print("\n")
+
+	del queuedList[:]
 
 
 while(True):
 	theWholeFunction()
-	sleep(600)
+	sleep(_TIME)
 
 
 
