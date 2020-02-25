@@ -1,6 +1,6 @@
-# UBC Course Checker (Made Entirely in Python)
+# UBC Course Checker
 ## Requirements:
-1. Pip Installed (Package Manager for Python)
+1. Pip Installed
 1. A [Twilio](https://www.twilio.com/) account
 
 ## How to Start:
